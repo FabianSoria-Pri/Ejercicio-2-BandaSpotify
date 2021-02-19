@@ -2,95 +2,61 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <!-- Enlace CSS -->
+    <link rel="stylesheet" href="estilos.css">
+    <title>Index</title>
 </head>
-<body style="background-color: cornsilk;">
-    <header style="background-color: cadetblue;">
-            <h1 style="color: cornsilk; text-align: center;">IMAGINE DRAGONS</h1>
+
+<body background="">
+    <!-- Encabezado -->
+    <header>
+        <h1 id="titulo">IMAGINE DRAGONS</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="biografia.html">Biografia</a></li>
+                <li><a href="discografia.html">Discografia</a></li>
+                <li><a href="Encuesta.html">Encuesta</a></li>
+            </ul>
+        </nav>
     </header>
 
+    <!-- Contenido principal del sitio -->
     <main>
-        <h1 style="color: #993366; font-size: xx-large; font-style: italic;">¿Quién es Imagine Dragons?</h1>
-
-            <article>
-                Imagine Dragons se formó en 2008 con Dan Reynolds como vocalista junto a otros estudiantes de la Universidad Brigham Young. Al tiempo, llegaría quien hoy es su guitarrista, Wayne Sermon. Luego, por invitación de éste, fue llamado Ben McKee, su bajista y, más adelante, Daniel Platzman, su baterista.
-            </article>
-            
-
-            <h1 style="color: #993366; font-size: xx-large; font-style: italic;">Nombre</h1>
-            <article> 
-                "Imagine Dragons" es, en realidad, un anagrama del "verdadero nombre". "Ragged Insomnia" ("Insomnio irregular") que, cambiando sus letras de lugar, se puede formar "Imagine Dragons".
-            </article>
-
-            <h1 style="color: #993366; font-size: xx-large; font-style: italic;">Estilo musical</h1>
-            <article> 
-                La marca distintiva de Imagine Dragons es su "mezcla de sonido". El productor Alex da Kid comentó una vez, cómo el sonido de Imagine Dragons era perfecto para "difuminar las líneas entre géneros".​ En conjunto, el sonido de la banda es una mezcla de rock alternativo y pop, que se centra en graves profundos , fuertes sonidos de batería y poderosas voces. En la industria de la música, el sonido de Imagine Dragons se describe como claramente "rítmico".
-            </article>
+        <section class="seccion1">
+            <img class="portada" src="grupo.jpg" style="text-align: center; align-items: center;">
+            <br><br>
         </section>
+
+        <!-- Publicidad o contenido no relacionado con el sitio -->
+        <aside>
+            <nav>
+
+            </nav>
+        </aside>
     </main>
 
-    <h1 style="color: #993366; font-size: xx-large; font-style: italic;">Álbumes</h1>
-    <img src="Night Visions.jpg" alt="Girl in a jacket" width="200" height="200">
-    <img src="smoke.jpeg" alt="Girl in a jacket" width="200" height="200">
-    <img src="evolve.jpg" alt="Girl in a jacket" width="200" height="200">
-    <img src="origins.jpg" alt="Girl in a jacket" width="200" height="200">
-    <br><br>
+    <!-- Linea de separacion -->
+    <!-- <hr color="cadetblue" size=3> -->
+    
 
-    <Section>
-        <iframe src="https://open.spotify.com/embed/track/62yJjFtgkhUrXktIoSjgP2" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-        <iframe src="https://open.spotify.com/embed/track/6Qn5zhYkTa37e91HC1D7lb" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-        <iframe src="https://open.spotify.com/embed/track/1sWeSMifj6Z6kZyI6z3bRc" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-    </Section>
-
-    <br>
-    <h2 style="color: #993366; font-size: xx-large; font-style: italic; margin-top: 10px;">Enlace al canal oficial de Youtube:</h2> <NOBR>
-    <a href="https://www.youtube.com/channel/UCT9zcQNlyht7fRlcjmflRSA" style="font-size: x-large" target="_blank">Youtube oficial</a>
-    <br><br>
-
-
-
-    <!-- Tarea del formulario: buscar información por parte del artista a sus fans, por ejemplo: cuál es su album favorito, canción favorita, consultar alguna información personal y tener la posibilidad de enviar un mensaje. -->
-    <hr color="cadetblue" size=3>
-    <form style="text-align: center;">
-        <h1 style="text-align: center;">Encuesta</h1>
-        <p >Album favorito:</p>
-        <input type="text" class="campo"> <br>            
-        
-        <p>Canción favorita:</p>
-        <input type="emal" class="campo"> <br> 
-        
-        <p>Mail para recibir información:</p>
-        <input type="numer" class="campo"> <br> 
-
-        <p>Mensaje:</p>
-        <textarea class="campo" style="height: 3cm; width: 10cm;"></textarea> <br> 
-        
-         <input type="submit" class="button" value="Enviar" style="margin-top: 3px; size: 5px;">
-    </form>
-
-    <hr color="cadetblue" size=3>
+    <!-- PIE DE PAGINA -->
     <footer>
-            <!-- TABLA -->
-        <table>
-            <thead>
-                <tr>
-                    <th>Nombre</th>
-                    <th>Apellido</th>
-                    <th>Email</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Fabian</td>
-                    <td>Soria</td>
-                    <td>fabiansoria@gmail.com</td>
-                </tr>
-            </tbody>
-        </table>
-
-        <!-- <p><a href="mailto:fabiansoria@gmail.com">fabiansoria@gmail.com</a></p> -->
-      </footer>
-
+        <nav>
+            <ul>
+                <li><a href="https://www.youtube.com/user/ImagineDragons" target="_blank">YouTube</a></li>
+                <li><a href="https://www.instagram.com/imaginedragons/?hl=es" target="_blank">Instagram</a></li>
+                <li><a href="https://twitter.com/imaginedragons?lang=es" target="_blank">Twiter</a></li>
+                <li><a href="https://es-la.facebook.com/ImagineDragons" target="_blank">Facebook</a></li>
+                <li><p style="text-align: center;">Copyright 2021</p></li>
+            </ul>
+        </nav>
+    </footer>
 </body>
 </html>
+
+
+<!-- Consigna: Realizar un sitio con un menú de 3 páginas (nosotros, servicios, contacto), que sea responsive utilizando flexbox y además utilizar elementos que sean diferentes en @media para móvil, tablet y desktop (cajas de colores, tamaño de fuente, textos, etc.)
+ -->
