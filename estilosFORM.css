@@ -1,8 +1,5 @@
-body {    
-    /* Full height */
+body { 
     height: 100%;
-      
-    /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -166,9 +163,6 @@ li a{
 
 /* Tablet IPAD*/
 @media screen and (min-width: 481px) and (max-width: 1024px){
-    /* nav ul {
-        background-color: greenyellow;
-    } */
     a,p {
         color: black;
         font-size: x-large;
